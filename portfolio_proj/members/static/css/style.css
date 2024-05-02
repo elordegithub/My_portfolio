@@ -41,8 +41,8 @@ nav a:hover {
     background-color: #555;
 }
 
-/* Main content styles */
-main {
+/* css for main function on home page */
+.home{
     flex: 1;
     padding: 2rem;
     display: flex;
@@ -50,17 +50,28 @@ main {
     align-items: center;
 }
 
-main img {
+.home img {
     max-width: 25%;
     height: auto;
     margin-right: 2rem;
     border-radius: 50%;
 }
 
-main div {
+.home div {
     max-width: 500px;
 }
 
+/* Footer styles for everypages*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+/*__________________________end of css for home page__________________________*/
+
+/*__________________________css for about page__________________________*/
 .container {
     text-align: center;
     max-width: 800px;
@@ -77,7 +88,6 @@ main div {
     text-align: justify;
 }
 
-
 .logos {
     display: flex;
     justify-content: center;
@@ -88,18 +98,11 @@ main div {
 .logos img {
     max-width: 100px;
     margin: 0 10px;
+    border-radius: 50%;
 }
+/*__________________________end of css for about page__________________________*/
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    margin-top: auto;
-}
-
-/* design for projects page */
+/*__________________________css for projects page__________________________*/
 .denta {
     display: flex;
     justify-content: center;
@@ -108,7 +111,7 @@ footer {
 }
 
 .denta img {
-    max-width: 100%; /* Adjust size as needed */
+    max-width: 75%; /* Adjust size as needed */
     height: auto;
     border-radius: 0; /* Remove border-radius */
 }
@@ -128,3 +131,27 @@ footer {
     background-color: #555;
 }
 
+/*__________________________end of css for projects page__________________________*/
+
+/*__________________________css for contact page__________________________*/
+.logos_con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Adjust margin as needed */
+}
+
+.logo_con img {
+    max-width: 70px;
+    margin-bottom: 10px;
+}
+
+.logo_con p {
+    margin: 0;
+}
