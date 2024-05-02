@@ -1,30 +1,40 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="{% url 'home' %}">Home</a>
-            <a href="{% url 'about' %}">About</a>
-            <a href="{% url 'projects' %}">Projects</a>
-            <a href="{% url 'contact' %}">Contact</a>
-        </nav>
+      <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'projects' %}">Projects</a>
+        <a href="{% url 'contact' %}">Contact</a>
+      </nav>
     </header>
 
     <main>
-        <img src="23.jpg" alt="">
-        <div>
-            <h1>Hi everyone!</h1>
-            <h2>I'm Justine Luis D. Elorde</h2>
-            <p>I'm an IT student with a thirst for knowledge and a knack for problem-solving. <br>
-                Eager to dive into the world of technology, <br>
-                I'm ready to learn, adapt, and innovate.</p>
-        </div>
+      <img
+        src="https://scontent.fmnl13-2.fna.fbcdn.net/v/t39.30808-6/432411929_932771625029564_7829184283029517026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEB-uFzq7BMSCRiUSEbaWpHKktAog0LKVAqS0CiDQspUCIVFLvxjyh-rIrYprmpnuYcWT59QE6zQn_qjN_GNJF4&_nc_ohc=DG4Pkd-fzv8Q7kNvgFGraZk&_nc_ht=scontent.fmnl13-2.fna&oh=00_AfCxVxHWXMnTK7koPpKjVaYx_PnrkN7FDuIwlq-tq0Sf7A&oe=6638FD2C"
+        alt="picture"
+      />
+      <div>
+        <h1>Hi everyone!</h1>
+        <h2>I'm Justine Luis D. Elorde</h2>
+        <p>
+          I'm an IT student with a thirst for knowledge and a knack for
+          problem-solving. Eager to dive into the world of technology, I'm ready
+          to learn, adapt, and innovate.
+        </p>
+      </div>
     </main>
-    
-</body>
+
+    <footer>
+      <p>&copy; Justine's Portfolio</p>
+    </footer>
+  </body>
 </html>
