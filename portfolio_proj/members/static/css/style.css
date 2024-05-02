@@ -150,6 +150,7 @@ footer {
 .logo_con img {
     max-width: 70px;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 
 .logo_con p {
