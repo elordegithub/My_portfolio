@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>Projects</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <header>
@@ -18,12 +18,25 @@
     </header>
 
     <main>
-        <img src="23.jpg" alt="">
-        <div>
+        <div class="container">
             <h1>Projects</h1>
-
+            <p>
+                One of my standout projects is "Dentabook", a streamlined booking
+                system for dental appointments at the PSU clinic. It offers users a
+                seamless experience for scheduling visits and managing appointments
+                while optimizing clinic operations. Additionally, you can explore more
+                of my projects and contributions on GitHub.
+            </p>
+            <div class="denta">
+                <img src="{% static 'images/denta.png' %}" alt="Dentabook Screenshot">
+            </div>
+            <br>
+            <a href="https://github.com/elordegithub" class="github-btn">View my GitHub</a>
         </div>
     </main>
-    
+
+    <footer>
+        <p>&copy; Justine's Portfolio</p>
+    </footer>
 </body>
 </html>
